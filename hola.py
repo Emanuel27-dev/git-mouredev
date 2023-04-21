@@ -1,3 +1,7 @@
-def suma(a , b):
-    return a + b
+import numpy as np
+
+lista = [num for num in range(13)]
+arreglo = np.array(lista)
+
+print(arreglo)
 
